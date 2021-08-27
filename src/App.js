@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import axios from 'axios';
+import React,{ useState,useEffect } from 'react';
+import StateCard from './components/statecard';
+import Header from './components/Header'
 function App() {
+  const [data,setData]= useState([]);
+  useEffect(() => {
+    const fetch = async () => {
+      const result = await axios(`https://covid19.mathdro.id/api/countries/india/confirmed`)
+      console.log(result.data);
+      setData(result.data)
+    }
+  
+   
+  
+  fetch()
+  },[])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <Header />
+     <StateCard data={data}/>
+
+   </div>
   );
 }
 

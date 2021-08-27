@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    margin-left: 29rem;
+    margin-top: 4rem;
+}
+
+h1{
+    font-size: 39px;
+    font-weight: 300;
+    font-family: 'Kaisei Tokumin', serif;
+    color: orange;
+
+}
+
+.flag{
+    width: 15%;
+    padding-top: 10px;
+    
+}

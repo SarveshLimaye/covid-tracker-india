@@ -1,0 +1,23 @@
+.statecard{
+  width: 300px;
+  height: 300px;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color:#17B978;
+}
+
+
+.heading{
+ padding: 2rem 0 0 0.5rem;
+ text-align: center;
+ font-size: 23px;
+ color:#EEE
+}
+
+.data{
+  padding: 1rem 0 0 2rem;
+  font-size: 18px;
+  color: #EEE;
+}
+
