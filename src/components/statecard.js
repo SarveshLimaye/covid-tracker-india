@@ -4,11 +4,11 @@ import "../components/stateCard.css"
 
 const stateCard = ({data}) => {
   return(
-      <div class="states">
+      <div className="states">
           {data.map(item => {
               return(
                   <div > 
-                   <IndivisualState key={item.uid} item={item}/>
+                   <IndivisualState key={item.combinedKey} item={item}/>
                   </div>
               )
           })}

@@ -4,7 +4,7 @@
   margin-left: 4rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  background-color:#17B978;
+  background-color:#252A34;
 }
 
 
@@ -12,12 +12,13 @@
  padding: 2rem 0 0 0.5rem;
  text-align: center;
  font-size: 23px;
- color:#EEE
+ color:#08D9D6;
 }
 
 .data{
   padding: 1rem 0 0 2rem;
   font-size: 18px;
   color: #EEE;
+  margin: 16px 0 0 16px;
 }
 
