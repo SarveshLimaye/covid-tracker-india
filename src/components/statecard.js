@@ -1,8 +1,10 @@
 import React from 'react';
 import IndivisualState from '../components/indivisualState';
 import "../components/stateCard.css"
+;
 
-const stateCard = ({data}) => {
+const stateCard = ({data,isLoading}) => {
+
   return(
       <div className="states">
           {data.map(item => {

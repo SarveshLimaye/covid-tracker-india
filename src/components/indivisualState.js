@@ -9,8 +9,8 @@ const IndivisualState = ({item}) => {
         <h3>{item.provinceState}</h3>
         </div>
         <div className="data">
-        <strong>Active cases : {item.active}</strong> <br/>
         <strong>Confirmed cases: {item.confirmed}</strong> <br/>
+        <strong>Recovered : {item.active}</strong> <br/>
         <strong>Deaths : {item.deaths}</strong> <br/>
         </div>
         </div>
