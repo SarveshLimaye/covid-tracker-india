@@ -22,3 +22,15 @@
   margin: 16px 0 9rem 16px;
 }
 
+@media (max-width:800px) {
+  .statecard{
+    margin-left: 2rem;
+  }    
+}
+
+@media (max-width:500px) {
+    .statecard{
+      grid-template-columns: repeat(1, 0.5fr); 
+      margin-left: 6rem;
+    }    
+  }
